@@ -22,7 +22,6 @@ class Reservation extends Model
 
     protected $casts = [
         'date' => 'date',
-        'heure_debut' => 'datetime:H:i',
         'total' => 'decimal:2',
     ];
 
